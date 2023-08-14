@@ -1,0 +1,63 @@
+$font-family-sans-serif: 'Poppins', 'Open Sans', sans-serif;
+
+$primary: hsl(322, 100%, 66%);
+$info: #F6FBFF;
+$dark: hsl(192, 100%, 9%);
+
+$btn-padding-x: 30px;
+$btn-padding-x-sm: 25px;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+nav {
+    opacity: 0.96;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+#mainButton {
+    padding: 20px 90px;
+}
+
+#bg1 {
+    height: 200px;
+    background-image: url(./huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#bgFooter {
+    height: 200px;
+    background-image: url(./huddle-landing-page-with-curved-sections-master/images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 576px) {
+    #mainButton {
+        padding: 5px 43px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #countTexts {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #bgFooter {
+        height: 70px;
+        background-image: url(./huddle-landing-page-with-curved-sections-master/images/bg-footer-top-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
