@@ -41,10 +41,8 @@ nav {
     background-size: 100% 100%;
 }
 
-@media screen and (max-width: 576px) {
-    #mainButton {
-        padding: 5px 43px;
-    }
+.footer {
+    margin-top: -10px;
 }
 
 @media screen and (max-width: 576px) {
@@ -59,7 +57,13 @@ nav {
         background-size: 100% 100%;
     }
 
-    .footer {
-        margin-top: -10px;
+    #mainButton {
+        padding: 5px 43px;
+    }
+
+    nav button {
+        width: 100px;
+        font-size: 12px !important;
+        padding: 7px 6px !important;
     }
 }
