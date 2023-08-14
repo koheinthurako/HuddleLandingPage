@@ -10760,13 +10760,14 @@ nav {
   #countTexts {
     font-size: 60px;
   }
-}
-@media screen and (max-width: 576px) {
   #bgFooter {
     height: 70px;
     background-image: url(./huddle-landing-page-with-curved-sections-master/images/bg-footer-top-mobile.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+  }
+  .footer {
+    margin-top: -10px;
   }
 }
 
